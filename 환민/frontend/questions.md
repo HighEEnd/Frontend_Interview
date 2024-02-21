@@ -25,3 +25,17 @@
 정의해서 개발할 수 있습니다.
 
 </details>
+
+## Pakage.json 디펜던시, 데브디펜던시 차이
+
+ <details>
+<summary>환민</summary>
+package.json 파일의 dependencies와 devDependencies는 각각 프로젝트의 종속성을 관리하는 데 사용됩니다.
+
+dependencies에는프로덕션 환경에서 필요한 종속성이 포함됩니다. 즉, 애플리케이션의 실행 및 운영에 필요한 모듈이 여기에 포함됩니다.
+
+devDependencies에는 개발 및 빌드 프로세스에 필요한 종속성이 포함됩니다. 즉, 소스 코드를 개발하고 테스트하고 빌드하는 데 필요한 도구 및 라이브러리가 여기에 포함됩니다.
+
+즉 dependencies, devDependencies 차이점은 실제 운영에 필요한 종속성이냐 아니냐로 나뉘게 됩니다.
+
+</details>
